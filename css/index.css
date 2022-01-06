@@ -1,3 +1,6 @@
+html {
+
+}
 header {
   background-color: #5C21B8;
   /* background-image:url(../img/Devasthana.jpg) ; */
@@ -9,6 +12,7 @@ body{
   margin: 2%;
   padding: 1%;
   background-color: #FFFfff;
+  font-family: "Noto Sans Kannada", "Noto Serif Kannada", "Baloo Tamma 2", sans-serif;
 }
 h1 {
   color: #FFFfff;
