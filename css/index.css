@@ -7,6 +7,11 @@ header {
   background-size: cover;
   padding: 1% 2%;
   border-radius: 2%;
+  justify-content: center;
+  align-content: center;
+  display: block;
+  position: sticky;
+  bottom: auto;
 }
 body{
   margin: 2%;
@@ -22,6 +27,7 @@ h1 {
 }
 nav {
   color: #F0FF00;
+
 }
 nav>a {
   background-color: rgba(164, 240, 249, 0.2);
