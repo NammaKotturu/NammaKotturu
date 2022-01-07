@@ -3,5 +3,5 @@ function hi() {
   var name = prompt("please enter your name");
   document.write("Hi " + name + "<br> <br> My Account section is Coming Soon" +
   "<br> <br> If you like to contribute to the project, Please visit *Contact Us* section of the website. <br> Thank you"
-+ "Or <a href="home.html.contact">Click hear</a>" );
++ "Or <a href="home.html#contact">Click hear</a>" );
 }
