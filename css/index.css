@@ -55,8 +55,10 @@ nav>a:hover, nav>a:active {
 
 }
 main a {
-  color: #000000;
-  background-color: #aaaaaa;
+  color: rgb(88,96,238);
+  text-decoration: underline;
+  font-weight: bolder;
+  /* background-color: #aaaaaa; */
 }
 h2 {
   color: #000000;
@@ -166,4 +168,9 @@ td{
 td:hover {
   color: rgba(0, 0, 0, 1);
   background-color:  rgb(228,245,224, 0.9);
+}
+
+.twitter-timeline {
+  display: inline;
+  width: 30% !important;
 }
