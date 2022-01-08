@@ -110,6 +110,9 @@ img {
   margin: 3%; */
 
 }
+footer > p > img {
+  width: 10%;
+}
 table{
   display: block;
   color: #000000;
@@ -171,6 +174,7 @@ td:hover {
 }
 
 .twitter-timeline {
-  display: inline;
-  width: 30% !important;
+  display:contents;
+  height: 40% !important;
+  /* width: 30% !important; */
 }
