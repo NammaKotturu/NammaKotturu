@@ -182,3 +182,7 @@ td:hover {
 #logo {
   max-width: 5%;
 }
+#name {
+  font-weight: bold;
+  text-emphasis-color: #000000;
+}
