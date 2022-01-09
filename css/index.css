@@ -178,3 +178,7 @@ td:hover {
   height: 40% !important;
   /* width: 30% !important; */
 }
+
+#logo {
+  max-width: 5%;
+}
