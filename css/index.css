@@ -61,7 +61,7 @@ main a {
   /* background-color: #aaaaaa; */
 }
 h2 {
-  color: #000000;
+  color: rgba(195, 10, 131, 1);
   text-transform: uppercase;
   text-align: center;
 }
@@ -112,6 +112,12 @@ img {
 }
 footer > p > img {
   width: 10%;
+}
+
+footer {
+  width: 90%;
+  display: block;
+  clear: both;
 }
 table{
   display: block;
@@ -185,4 +191,25 @@ td:hover {
 #name {
   font-weight: bold;
   text-emphasis-color: #000000;
+}
+
+.clinic {
+  padding: 2%;
+  border-radius: 8px;
+  background-color: rgba(255, 135, 0,0.5);
+  clear: none;
+
+}
+.clm-1-1-1 {
+  width: 30%;
+  display: inline-block;
+
+}
+.clm-1-2 {
+  width: 60%;
+  float: right;
+}
+.profilepic {
+  border-width: 0px;
+  width: 40%;
 }
