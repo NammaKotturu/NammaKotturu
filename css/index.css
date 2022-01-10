@@ -5,7 +5,7 @@ html {
   height: 120px; */
 }
 header {
-  background-color: #463AFF;
+  background-color: #117A65;
   /* background-image:url(../img/Devasthana.jpg) ; */
   background-size: cover;
   padding: 1% 2%;
@@ -13,14 +13,17 @@ header {
   justify-content: center;
   align-content: center;
   display: block;
-  position: sticky;
-  transition-property: all;
+  /* width: 98%;
+  position: fixed;
+  top: 10px;
+  transition-property: all; */
 }
+
 body{
   margin: 2%;
   padding: 1%;
   background: #FFFfff;
-  background: linear-gradient(#F8F6C6 , #F5C6F8);
+  background: linear-gradient( 45deg, #F8F6C6 , #F5C6F8, #89B6FF);
   font-family: "Noto Sans Kannada", "Noto Serif Kannada", "Baloo Tamma 2", sans-serif;
 }
 h1 {
@@ -118,16 +121,22 @@ img {
 footer > p > img {
   width: 10%;
 }
-
+footer :link {
+  color: #FFFFFF;
+}
+footer :visited{
+  color: #00FFCC;
+}
 footer {
-  width: 90%;
+  width: 94%;
+  color: #FFFFFF;
   padding: 3%;
   display: block;
   clear: both;
-  /* background: #FFFfff; */
-  background-image: url("../img/KMH Logo.png");
+  background: #117A65;
+  /* background-image: url("../img/KMH Logo.png");
   background-repeat: no-repeat;
-  background: linear-gradient(90deg, #B9FF89, #89B6FF , #F889FF);
+  background: linear-gradient(90deg, #B9FF89, #89B6FF , #F889FF); */
 }
 table{
   display: block;
@@ -209,7 +218,8 @@ td:hover {
 .clinic {
   padding: 2%;
   border-radius: 8px;
-  background-color: rgba(255, 135, 0,0.5);
+  background: #FFFFFF;
+  /* background-color: rgba(255, 135, 0,0.5); */
   clear: none;
 
 }
