@@ -72,6 +72,18 @@ h2 {
   color: rgba(195, 10, 131, 1);
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgba(176, 58, 46, 1);
+  font-weight: bolder;
+  font-style: italic;
+}
+
+h4 {
+  color: rgba(33, 47, 61, 1);
+  font-kerning: auto;
 }
 main {
   /* background-color: #BCB9B7; */
