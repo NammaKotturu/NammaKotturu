@@ -8,8 +8,9 @@ header {
   background-color: #117A65;
   /* background-image:url(../img/Devasthana.jpg) ; */
   background-size: cover;
+  /* margin: auto; */
   padding: 1% 2%;
-  border-radius: 1% 2%;
+  /* border-radius: 1% 2%; */
   justify-content: center;
   align-content: center;
   display: block;
@@ -20,7 +21,7 @@ header {
 }
 
 body{
-  margin: 2%;
+  /* margin: 2%; */
   padding: 1%;
   background: #FFFfff;
   background: linear-gradient( 45deg, #F8F6C6 , #F5C6F8, #89B6FF);
@@ -199,9 +200,9 @@ td:hover {
 }
 
 .twitter-timeline {
-  display:contents;
-  height: 40% !important;
-  /* width: 30% !important; */
+  display: grid;
+  /* height: 40% !important; */
+  width: 30% !important;
 }
 
 #logo {
